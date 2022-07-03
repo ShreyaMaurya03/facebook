@@ -1,0 +1,146 @@
+ body{                                            /*here code for Facebook in header*/
+    width:100%;
+	margin: 0;
+	padding: 0;
+	backgound-color: rgb(235,223,270);
+	font-family:Arial,Helvetica,sans-serif;
+    }
+ header{                                      /*here code for header */
+	 width:100%;
+	 backgound-color:#3b5998;             /*rgb(59, 89, 152)*/
+	 background-image:linear-gradient(#4e69a2,#3b5998 50%);   /*for blue bar in header  */
+	 border-bottom:1px solid #133783;              /*this increase lenght of blue bar*/
+	 display:flex;
+	 justify-content: space-around;
+     padding:0.6em 0em;
+	 }
+	 header a{                                   /*code for facebook logo*/
+		     color:white;
+			 text-decoration: none;            /*it will remove the line under facebook hyperlink text*/
+	        }
+			#brand{                         /*brand id will make facebook bold ,move to center and font-weight make font needed to be*/
+				font-size:230%;
+				align-self: center;
+				font-weight: bold;
+			}
+  header form{
+	  color: white;
+	  margin-left: 35%;
+	  }
+	  header form ul{
+		   display:flex;
+		   flex-direction:row;
+		   list-style-type: none;
+		   padding: 0;
+		   margin-bottom: 0;
+		  }
+	 header form li{
+		  align-self: flex-start;
+		  padding: 0.2em 0.5em;
+		  font-size: 80%;
+		  }
+     header form input{
+		      margin:0.8em;
+			  height: 18px;
+	 }		 
+     header form input[type="submit"]{
+		 backgound-color: #4267b2;
+		 border: 1px solid #8298A;
+		 color: white;
+		 height: 24px;
+		 font-weight: bold;
+		 margin-top:25%;
+		 cursor: pointer;
+	 }
+	 
+	 main{                            /*Css code for body section*/
+		 display: flex;
+	 }
+	 .section{
+		 flex-grow:1;
+		 width: 100%;
+		 display: flex;
+		 flex-direction: column;
+		 align-items: center;
+	 }
+	 #left-title{
+		 color: #0e385f;
+		 font-size: 20px;
+		 font-weight: bold;
+		 line-height: 29px;
+		 margin-top: 40px;
+		 word-spacing: -1px;
+		 max-width: 400px;
+		 
+	 }
+	 #right-title{
+		 align-self: flex-start;
+	     color:#333;
+		 margin-left: 4em;
+	 }
+	 
+	 .input-group{
+		 width: 180px;
+		 font-size: 18px;
+		 padding: 8px 10px;
+		 border-radius: 5px;
+		 border: 1px solid #ccd0d5;
+		 color:#1c1e21
+		 margin:0.2em;
+	 }
+	 .input-group-full{
+		 width:393px !important;
+	 }
+	 .subtitle{
+		 color: #90949c;
+		 font-size: 16px;
+		 font-size: bold;
+		 margin: 3% 0;
+	 }
+	 select{
+		 font-size: 13px;
+		 height: 30px;
+		 padding: 5px;
+		 background-color: #fff;
+		 color: #1c1c21;
+		 border: 1px solid #ccd0d5;
+	 }
+	 input[type="radio"]~ label
+	 {
+		 color:#1d2129;
+		 font-size: 18px;
+		 font-weight: normal;
+		 line-weight: 18px;
+		 padding: 0 10px 0 3px;
+	 }
+	 .terms{
+		 color: #777;
+		 font-size: 11px;
+		 width: 316px;
+		 margin: 1em 0;
+	 }
+	 .terms a{
+		 color: #385898;
+		 cursor: pointer;
+		 text-decoration: none;
+	 }
+	 .terms a:hover{
+		 text-decoration: underline;
+	 }
+	 .section input[type="submit"]
+	 {
+		 min-width: 194px;
+		 padding: 7px 28px;
+		 font-size: 19px;
+		 background-image: linear-gradient(#67ae55,#578843);
+		 background-color: #69874e;
+		 box-shadow: inset 0 1px 1px #a4e388;
+		 border-color: #3b6e22 #3b6e22 #2c5115;
+		 border: 1px solid;
+		 backgound-color: 5px;
+		 color: #fff;
+		 cursor: pointer;
+		 display; inline-block;
+		 text-shadow :0 1px 2px rgba(0,0,0,0.5);
+		 border-radius: 5px;
+		}
